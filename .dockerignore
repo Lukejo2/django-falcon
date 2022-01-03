@@ -1,0 +1,4 @@
+/venv
+.env
+.env.prod
+run.sh
