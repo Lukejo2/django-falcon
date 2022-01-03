@@ -7,3 +7,4 @@ DATABASES['default']['NAME'] = os.getenv('DB_NAME')
 DATABASES['default']['USER'] = os.getenv('DB_USER')
 DATABASES['default']['PASSWORD'] = os.getenv('DB_PASSWORD')
 DATABASES['default']['HOST'] = os.getenv('DB_HOST')
+ALLOWED_HOSTS = ['*']
